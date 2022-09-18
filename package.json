@@ -1,0 +1,26 @@
+{
+  "name": "aqa-cypress-tt",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "dependencies": {
+    "cypress": "^10.8.0",
+    "typescript": "^4.8.3"
+  },
+  "devDependencies": {
+    "cypress-xpath": "^2.0.1"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/IRONVOLT/aqa-cypress-tt.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/IRONVOLT/aqa-cypress-tt/issues"
+  },
+  "homepage": "https://github.com/IRONVOLT/aqa-cypress-tt#readme"
+}
