@@ -16,10 +16,10 @@ before(() => {
   })
 })
 
-describe('empty spec', () => {
+describe('Test suit, success and fail on email field', () => {
   const registrationPage = new RegistrationPage();
   
-  it('passes', () => {
+  it('Success registration', () => {
     registrationPage.setCompanyNameField(userData.companyName);
     registrationPage.setFirstNameField(userData.firstName);
     registrationPage.setLastNameField(userData.lastName);
@@ -32,7 +32,7 @@ describe('empty spec', () => {
     cy.get('.welcome-title').should('be.visible');
   })
 
-  it('passes', () => {
+  it('Fain on email field', () => {
     registrationPage.setCompanyNameField(userData.companyName);
     registrationPage.setFirstNameField(userData.firstName);
     registrationPage.setLastNameField(userData.lastName);
