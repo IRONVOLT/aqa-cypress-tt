@@ -4,7 +4,7 @@ import RegistrationPage from "./page-object/RegistrationPage";
 
 let userData: UserData ;
 
-before(() => {
+beforeEach(() => {
   cy.visit('https://app.test.mypaymash.com/app#/signup');
 
 
